@@ -1,0 +1,83 @@
+# .NET Core/ASP.NET Core
+bin/
+obj/
+*.db
+*.sqlite
+*.sqlite3
+appsettings.user.json
+appsettings.*.user.json
+
+# Dependencies
+**/*.csproj.user
+**/*.sln.docstates
+**/*.cache
+packages/
+node_modules/
+
+# Visual Studio / Rider / IntelliJ
+**/.idea/
+**/.vs/
+**/.vscode/
+.vs/
+*.suo
+*.user
+*.userprefs
+_ReSharper*/
+*.DotSettings.user
+*.DotSettings
+**/.idea/**/workspace.xml
+**/.idea/**/tasks.xml
+**/*.iml
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+**/[Pp]ackages*/
+**/[Oo]utput*/
+**/TestResults*/
+
+# Logs
+*.log
+logs/
+
+# NuGet
+**/*.nupkg
+**/*.snupkg
+**/*.nupkg.metadata
+
+# Swagger/OpenAPI
+**/Kf.*.API.xml
+**/bin/**/Kf.*.API.xml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# User-specific files
+**/.idea/shelf/*
+**/.idea/httpRequests/
+**/.idea/dataSources/
+**/.idea/dataSources.ids
+**/.idea/dataSources.xml
+
+# Docker
+Dockerfile.user
+docker-compose*.yml.user
+
+# JetBrains Rider
+**/.idea/**/contentModel.xml
+**/.idea/**/modules.xml
+
+# Environment variables
+.env
+.env.local
+.env.*.local
